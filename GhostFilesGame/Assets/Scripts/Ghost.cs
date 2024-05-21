@@ -22,6 +22,7 @@ public class Ghost : MonoBehaviour
 
     void FollowPlayer()
     {
+        Vector2 direction = (player.position - transform.position).normalized;
         transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
     }
 
