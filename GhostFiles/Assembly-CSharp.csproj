@@ -65,8 +65,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\CharacterSwitching.cs" />
+    <Compile Include="Assets\Shooting.cs" />
     <Compile Include="Assets\PlayerMovement.cs" />
+    <Compile Include="Assets\Projectile.cs" />
     <Compile Include="Assets\CameraFollow.cs" />
+    <Compile Include="Assets\Transformation.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
