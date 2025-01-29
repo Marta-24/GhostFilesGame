@@ -49,4 +49,8 @@ public class CharacterSwitching : MonoBehaviour
         // Update the camera target
         cameraFollow.UpdateTarget(newCharacter.transform);
     }
+    public bool IsCharacter1Active()
+    {
+        return character1.activeSelf;
+    }
 }
